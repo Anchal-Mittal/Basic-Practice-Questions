@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a=8;
+	cout << a++ <<endl; **output 8
+	cout << a <<endl;    **output 9
+	cout << a++ + a++<<endl; **output 19 moving right to left 
+	cout << a <<endl;  **output 11
+	cout << ++a + a++ <<endl; **output 25
+	cout << a <<endl; **output 28
+  cout << a++ + ++a <<endl; **output 28 moving left to right ,so ++a=14 and a++ will increment but after exectution so 14+14
+ 	return 0;
+}
