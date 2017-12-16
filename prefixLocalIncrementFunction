@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int i=4;
+
+ void fun(int i){
+  cout << i<< endl;
+}
+ int main(){
+ 	int i=9;
+  fun(i++); //local value will be used and value of i increment after calling function
+	fun(++i);//local value will be used and value of iincrement before calling function
+	return 0;
+ }
